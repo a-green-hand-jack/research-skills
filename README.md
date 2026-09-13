@@ -21,6 +21,7 @@ The package is designed for filesystem-native agents such as Codex and Claude Co
 - `research-collaboration` — start, run, and repair scientific collaborations.
 - `open-science` — data management, provenance, reproducibility, and sharing.
 - `research-software` — build, document, version, automate, and publish research software.
+- `skill-creator` — discover authoritative resources, stage them locally, and synthesize new reusable Agent Skills.
 
 ## Installation
 
