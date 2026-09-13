@@ -24,7 +24,34 @@ The package is designed for filesystem-native agents such as Codex and Claude Co
 
 ## Installation
 
-Copy any skill directory into the skills directory used by your agent environment.
+The recommended installation method is the standard [`skills`](https://github.com/vercel-labs/skills) CLI, which runs through `npx` and supports Codex, Claude Code, OpenCode, Cursor, and other compatible agents.
+
+Install all skills globally for your user account:
+
+```bash
+npx skills add a-green-hand-jack/research-skills -g -y
+```
+
+Install all skills for the current project instead:
+
+```bash
+npx skills add a-green-hand-jack/research-skills -y
+```
+
+Install only selected skills:
+
+```bash
+npx skills add a-green-hand-jack/research-skills \\
+  --skill scientific-writing \\
+  --skill literature-review \\
+  -g -y
+```
+
+To target a specific agent, add its name with `-a`, for example `-a codex` or `-a claude-code`.
+
+### Manual installation
+
+You can also copy any skill directory into the skills directory used by your agent environment.
 
 Typical layouts include:
 
