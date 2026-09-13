@@ -2,6 +2,10 @@
 
 A compact family of Agent Skills distilled from high-value PLOS research-methods and scientific-practice guidance.
 
+## Attribution
+
+Much of the guidance in this project is derived from material published by [PLOS](https://plos.org/), especially the PLOS Computational Biology *Ten Simple Rules* series. The source material has been distilled, paraphrased, reorganized, and adapted into agent-oriented skills; it is not reproduced article-by-article. See [SOURCES.md](SOURCES.md) for the detailed attribution and source list. This project is independent and is not affiliated with or endorsed by PLOS.
+
 The package is designed for filesystem-native agents such as Codex and Claude Code. Each skill uses progressive disclosure:
 
 1. The agent discovers a skill from the `name` and `description` in `SKILL.md`.
